@@ -1,0 +1,116 @@
+.card {
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+  padding: 1.6rem;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  margin-bottom: 1.2rem;
+}
+
+.card img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.card button {
+  cursor: pointer;
+}
+
+.check {
+  background: transparent;
+  line-height: 0%;
+
+  color: var(--purple-dark);
+  border: none;
+  border-radius: 50%;
+
+  margin-right: 1.2rem;
+
+  height: 24px;
+  width: 24px;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+.check:hover{
+  color: var(--purple);
+
+}
+
+.circle {
+  background: transparent;
+  line-height: 0%;
+
+  color: var(--blue);
+  border: none;
+  border-radius: 50%;
+  
+  margin-right: 1.2rem;
+
+  height: 24px;
+  width: 24px;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+.circle:hover {
+  color: var(--blue-dark);
+}
+
+
+.card p{
+  font-size: 1.4rem;
+  color: var(--gray-100);
+  width: 100%;
+}
+
+.finished p {
+  text-decoration: line-through;
+  color: var(--gray-300);
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.trashButton {
+  background: transparent;
+  border: none;
+  border-radius: 4px;
+
+  color: var(--gray-300);
+  display: flex;
+  align-items: center;
+
+  height: 24px;
+  width: 24px;
+  justify-content: center;
+
+}
+
+.trashButton:hover {
+  color: var(--danger);
+  background: var(--gray-400);
+  border-radius: 4px;
+  line-height: 150% ;
+
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+

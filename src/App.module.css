@@ -1,0 +1,105 @@
+.page {
+  max-width: 73.6rem;
+  margin: 0 auto;
+  margin-top: -2.8rem;
+  padding: 0 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 1.6rem;
+
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+}
+
+.newTask {
+  display: flex;
+  gap: 0.8rem;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 1.6rem;
+
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+
+  border-radius: 8px;
+  border: none;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  transition: 0.1s;
+}
+
+.button:hover {
+  background: var(--blue);
+  cursor: pointer;
+}
+
+.content {
+  margin: 6.5rem 0 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+
+  color: var(--blue);
+}
+
+.content span {
+  border-radius: 999px;
+  background-color: var(--gray-400);
+
+  padding: 0.2rem 0.8rem;
+  margin-left: 0.8rem;
+
+  color: var(--gray-200);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.content .purpleWords{
+  color: var(--purple);
+}
+
+.empty img {
+  width: 5.6rem;
+  height: 5.6rem;
+}
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 2.4rem;
+  padding: 6.4rem 2.4rem;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  gap: 1.6rem;
+}
+
+.empty p {
+  color: var(--gray-300);
+  text-align: center;
+}
+
+.empty span {
+  font-weight: 700;
+}
